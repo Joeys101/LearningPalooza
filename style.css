@@ -1,0 +1,327 @@
+@import url('https://fonts.cdnfonts.com/css/texta');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav img {
+    margin-top: 1%;
+    margin-left: 1%;
+    max-width: 12%;
+}
+.banner img {
+    width: 100%;
+}
+.texto {
+    margin: 2%;
+    margin-left: 26%;
+    width: 50%;
+}
+.texto h1 {
+    text-align: center;
+    font-family: 'Texta', sans-serif;
+    font-weight: 1000;
+    color: #EA044E;
+}
+.banderas {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.banderas :hover {
+    cursor: pointer;
+}
+
+.muestra {
+    text-align: center;
+}
+.zeppelin {
+    width: 13%;
+    margin-left: 15%;
+    z-index: -1;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+.boton {
+    background-color: #F9EA47;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+.boton :hover {
+    cursor: pointer;
+}
+.boton h2{
+    font-family: 'Texta', sans-serif;
+    font-weight: 800;
+    font-size: 100%;
+    margin-top: 2px;
+}
+.miniatura {
+    width: 130%;
+    height: 80%;
+}
+.miniatura:hover {
+    cursor: pointer;
+}
+.videos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0px, 25.5%)); 
+
+}
+.video {
+    width: 69%;
+    margin-left: 50%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ver {
+    display: flex;
+    justify-content: center;
+    font-family: 'Texta', sans-serif;
+    font-weight: 800;
+    font-size: 50%;
+    background-color: #F9EA47;
+    height: auto;
+    padding: 2%;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 10%;
+}
+.ver :hover {
+    cursor: pointer;
+}
+
+
+.derecha {
+    position: absolute;
+    right: 0;
+    margin-top: -6%;
+    z-index: -1;
+    max-width: 10%;
+}
+.izquierda {
+    position: absolute;
+    left: 0;
+    margin-top: 4%;
+    margin-left: 3%;
+    z-index: -1;
+    max-width: 10%;
+
+}
+.iconos {
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 45%;
+    width: 40%;
+}
+.iconos img {
+    margin-left: 5%;
+    max-width: 5%;
+}
+.iconos :hover {
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    margin-top: -8px;
+    padding:0 ;
+}
+
+@media screen and (max-width: 2000px) {
+    .zeppelin  {
+        max-width: 8%;
+    }
+    .principal {
+        height: 500px;
+    }
+   
+    
+}
+@media screen  and (min-width: 1330px) {
+    #muestra iframe {
+        width: 1200px;
+        height: 700px;
+    }
+    .muestra{
+        height: 750px;
+    } 
+   
+    .iconos {
+        width: 45%;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 1094px) {
+    
+    .iconos {
+        margin-top: 13%;
+        width: 45%;
+    }
+    .zeppelin  {
+        max-width: 100%;
+    }
+    .principal {
+        height: 480px;
+    }
+   
+
+}
+
+@media screen and (max-width: 985px){
+    
+    .banderas img {
+        max-width: 40px;
+    }
+    .importante {
+        height: 360px;
+    }
+    .principal {
+        height: 360px;
+    }
+    .iconos {
+        margin-left: 40%;
+    }
+    .ver {
+        font-size: 45%;
+        width: 130px;
+    }
+}
+@media screen and (max-width: 770px) {
+    
+    .banderas img {
+        max-width: 30px;
+    }
+    .derecha {
+        max-width: 12%;
+    }
+    .izquierda {
+        max-width: 12%;
+    }
+    .texto {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    .nav {
+        margin: 5px;
+    }
+    .muestra {
+        margin-top: 55px;
+        margin-bottom: 55px;
+    }
+    .ver {
+        font-size: 35%;
+        width: 100px;
+    }
+   
+}
+@media screen and (max-width: 600px){
+    .banderas img {
+        max-width: 40px;
+    }
+   
+    .iconos {
+        margin-top: 11%;
+    }
+    .texto {
+        font-size: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .importante {
+        height: 240px;
+    }
+    .principal {
+        height: 240px;
+    }
+    .nav {
+        margin: 5px;
+    }
+    .muestra {
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+    .ver {
+        font-size: 30%;
+        width: 80px;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    
+    .importante {
+        height: 200px;
+    }
+    .principal {
+        height: 200px;
+    }
+    .derecha {
+        max-width: 15%;
+    }
+    .izquierda {
+        max-width: 15%;
+    }
+    .texto {
+        font-size: 10px;
+        margin-bottom: 40px;
+    }
+    .nav {
+        margin: 15px;
+    }
+    .muestra {
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .ver {
+        font-size: 25%;
+        width: 60px;
+    }
+    
+    
+}
+@media screen and (max-width: 376px) {
+    .muestra {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .importante {
+        height: 150px;
+    }
+    .principal {
+        height: 150px;
+    }
+   
+    .iconos {
+        margin-top: 10%;
+    }
+    .boton {
+        margin-bottom: 50px;
+    }
+    .miniatura {
+        width: 130%;
+        height: 50%;
+    }
+    .video {
+        margin-bottom: 10px;
+    }
+    .ver {
+        font-size: 15%;
+        width: 45px;
+    }
+    
+}

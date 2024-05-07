@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./recursos/icono.png">
+    <title>LearningPalooza PEYA</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="./recursos/logo.svg" alt="logo" srcset="">
+        
+    </div>
+    <div class="banner">
+        <img src="./recursos/banner.svg" alt="banner" srcset="">
+    </div>
+    <div class="texto">
+        <h1>Sube el volumen a tus skills y elige el escenario que quieras escuchar...</h1>
+    </div>
+    <div class="banderas">
+        <img src="./recursos/arg.png" alt="" srcset=""onclick="cambiarVideo('arg')">
+        <img src="./recursos/bo.png" alt="" srcset=""onclick="cambiarVideo('bo')">
+        <img src="./recursos/cl.png" alt="" srcset=""onclick="cambiarVideo('cl')">
+        <img src="./recursos/cr.png" alt="" srcset=""onclick="cambiarVideo('cr')">
+        <img src="./recursos/do.png" alt="" srcset=""onclick="cambiarVideo('do')">
+        <img src="./recursos/ec.png" alt="" srcset=""onclick="cambiarVideo('ec')">
+        <img src="./recursos/gt.png" alt="" srcset=""onclick="cambiarVideo('gt')">
+        <img src="./recursos/hn.png" alt="" srcset=""onclick="cambiarVideo('hn')">
+        <img src="./recursos/ni.png" alt="" srcset=""onclick="cambiarVideo('ni')">
+        <img src="./recursos/pa.png" alt="" srcset=""onclick="cambiarVideo('pa')">
+        <img src="./recursos/pe.png" alt="" srcset=""onclick="cambiarVideo('pe')">
+        <img src="./recursos/py.png" alt="" srcset=""onclick="cambiarVideo('py')">
+        <img src="./recursos/sv.png" alt="" srcset=""onclick="cambiarVideo('sv')">
+        <img src="./recursos/uy.png" alt="" srcset=""onclick="cambiarVideo('uy')">
+        <img src="./recursos/ve.png" alt="" srcset=""onclick="cambiarVideo('ve')">
+    </div>
+    <div class="muestra" id="muestra">
+        <iframe width="70%" height="493" src="https://www.youtube.com/embed/uLiZO_S6wMM?autoplay=1&si=J8xTw5-CwCJkK-im" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="importante"></iframe>
+    </div>
+    <div>
+        <img src="./recursos/zeppelin.svg" alt="" srcset="" class="zeppelin" id="zeppelin">
+        <div class="contenedor" id="contenedor">
+        <div class="boton" id="home" onclick="inicio()">
+            <h2>Home</h2>
+        </div>  
+        <div class="boton" id="cronograma">
+            <a id="cronograma-link" href="https://drive.google.com/file/d/17xPwHnK4oejdNTyS2uJmgd9G3Ed0bLxa/view" target="_blank"> 
+            <h2>Cronograma</h2> 
+            </a>  
+        </div>
+        </div>
+    </div>
+    <div class="general" id="general">
+        <img src="./recursos/Izquierda.svg" alt="" class="izquierda">
+        <div class="videos">
+            <div class="video">
+                <img src="./recursos/fondo uruguay.png" alt="miniatura" srcset="" class="miniatura" onclick="cambiarVideo('uy')">
+                <a href="https://drive.google.com/file/d/1l_ZUNRsyrOqKKKFF_sxtq4OdbAIdTRqx/view" target="_blank">
+            <div class="ver" >
+                <h1>Conoce el line up</h1>
+            </div>
+        </a>
+        </div>
+        <div class="video">
+            <img src="./recursos/fondo chile.png" alt="miniatura" srcset="" class="miniatura" onclick="cambiarVideo('cl')">
+            <a href="https://drive.google.com/file/d/1SxqmcdUAQEwN4tWAnWJC6Kl9P2PCS5xa/view" target="_blank">
+            <div class="ver" >
+                <h1>Conoce el line up</h1>
+                    
+            </div>
+        </a>
+        </div>
+        <div class="video">
+            <img src="./recursos/fondo peru.png" alt="miniatura" srcset="" class="miniatura"onclick="cambiarVideo('pe')">
+            <a href="https://drive.google.com/file/d/18bOll8jEVcKSpiu64vaN7d8gJyyzCdbK/view" target="_blank">
+            <div class="ver">
+                <h1>Conoce el line up</h1>
+                    
+            </div>
+        </a>
+        </div>
+        <div class="video">
+            <img src="./recursos/fondo ecuador.png" alt="miniatura" srcset="" class="miniatura" onclick="cambiarVideo('ec')">
+            <a href="https://drive.google.com/file/d/1-t8U4D4MeHtHykWm3Axv5AEhA3FV0pth/view" target="_blank">
+            <div class="ver">
+                <h1>Conoce el line up</h1>
+                 
+            </div>
+        </a>
+        </div>
+        <div class="video">
+            <img src="./recursos/fondo guatemala.png" alt="miniatura" srcset="" class="miniatura" onclick="cambiarVideo('gt')">
+            <a href="https://drive.google.com/file/d/1sKHjXAwgVrBbdZX8A_M5iB13GzV5CNa-/view" target="_blank">
+            <div class="ver" >
+                <h1>Conoce el line up</h1>
+                
+            </div>
+        </a>
+        </div>
+        <div class="video">
+            <img src="./recursos/fondo costa rica.png" alt="miniatura" srcset="" class="miniatura" onclick="cambiarVideo('cr')">
+            <a href="https://drive.google.com/file/d/17cD0BDa7J8sGb8n6LmXV6ih7TQ4JS8Zp/view" target="_blank">
+            <div class="ver">
+                <h1>Conoce el line up</h1>
+            
+            </div>
+        </a>
+        </div>
+        <div class="video">
+            <img src="./recursos/fondo nicaragua.png" alt="miniatura" srcset="" class="miniatura" onclick="cambiarVideo('ni')">
+            <a href="https://drive.google.com/file/d/1zsFqcBMPBbASoce5bec0u_SiNbmam7ZP/view" target="_blank">
+            <div class="ver">
+                <h1>Conoce el line up</h1>
+                
+            </div>
+        </a>
+        </div>
+        <div class="video">
+            <img src="./recursos/fondo honduras.png" alt="miniatura" srcset="" class="miniatura" onclick="cambiarVideo('hn')">
+            <a href="https://drive.google.com/file/d/1wzEOMAuBZhCV_3-I81nGn3bhLrIhnKxI/view" target="_blank">
+            <div class="ver">
+                <h1>Conoce el line up</h1>
+               
+            </div>
+        </a>
+        </div>
+        <div class="video">
+            <img src="./recursos/fondo venezuela.png" alt="miniatura" srcset="" class="miniatura" onclick="cambiarVideo('ve')">
+            <a href="https://drive.google.com/file/d/1O3N6jmIYJPesbnK0Tnrksm1ABqdcjC3X/view" target="_blank">
+            <div class="ver">
+                <h1>Conoce el line up</h1>
+                
+            </div>
+        </a>
+        </div>
+        <div class="video">
+            <img src="./recursos/fondo el salvador.png" alt="miniatura" srcset="" class="miniatura" onclick="cambiarVideo('sv')">
+            <a href="https://drive.google.com/file/d/11LZHmNPk9DgokVKZLR3W1e3AptRSYF74/view" target="_blank">
+            <div class="ver">
+                <h1>Conoce el line up</h1>
+              
+            </div>
+        </a>
+        </div>
+        <div class="video">
+            <img src="./recursos/fondo rep. dominicana.png" alt="miniatura" srcset="" class="miniatura" onclick="cambiarVideo('do')">
+            <a href="https://drive.google.com/file/d/10fLwA_bC9nRU-cOAriXwtfEfyNWKAVb_/view" target="_blank">
+            <div class="ver">
+                <h1>Conoce el line up</h1>
+              
+            </div>
+        </a>
+        </div>
+        <div class="video">
+            <img src="./recursos/fondo panama.png" alt="miniatura" srcset="" class="miniatura" onclick="cambiarVideo('pa')">
+            <a href="https://drive.google.com/file/d/1o1Te3d4TZ_NJFWlanXB30QwJOM7viF4v/view" target="_blank">
+            <div class="ver">
+                <h1>Conoce el line up</h1>
+               
+            </div>
+        </a>
+        </div>
+        <div class="video">
+            <img src="./recursos/fondo bolivia.png" alt="miniatura" srcset="" class="miniatura" onclick="cambiarVideo('bo')">
+            <a href="https://drive.google.com/file/d/11n_Sk6ozO0pxfAlZfN_d3BoWBKGHowP2/view" target="_blank">
+            <div class="ver" >
+                <h1>Conoce el line up</h1>
+                
+            </div>
+        </a>
+        </div>
+        <div class="video">
+            <img src="./recursos/fondo paraguay.png" alt="miniatura" srcset="" class="miniatura" onclick="cambiarVideo('py')">
+            <a href="https://drive.google.com/file/d/1SPjSDfOwVNLd6AprAa0ym6hriBIjmzKC/view" target="_blank">
+            <div class="ver" >
+                <h1>Conoce el line up</h1>
+                 
+            </div>
+        </a>
+        </div>
+    
+        
+        
+        <img src="./recursos/Derecha.svg" alt="" class="derecha">
+    </div>
+
+</div>
+    <div class="iconos" id="iconos">
+        
+        <a href="https://www.linkedin.com/company/pedidosya/">
+        <img src="./recursos/li.svg" alt="" class="li">
+        </a>
+        <a href="https://www.instagram.com/lifeatpedidosya/">
+        <img src="./recursos/ig.svg" alt="" class="ig">
+        </a>
+    </div>  
+    <img src="./recursos/footer.svg" alt="" srcset="" class="footer" id="footer">
+    <img src="./recursos/footer.png" alt="" srcset="" class="footer" id="footerImg">
+    <script src="./app.js"></script>
+    
+</body>
+</html>
